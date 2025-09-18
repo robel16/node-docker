@@ -75,8 +75,8 @@ app.use((req, res, next) => {
 
 app.use(express.json());
 app.get("/", (req, res) => {
-  res.send("<h2> Hi there</h2>");
-  console.log(" its working fine");
+  res.send("<h2> Hi there!!!! testing for the watchtower</h2>");
+  console.log(" its working fine i think ");
 });
 
 app.use("/api/v1/posts", PostRouter);
